@@ -1,0 +1,11 @@
+/* * Only the `p` elements that are descendants of the `div` element should have a yellow background, red text, a font size of 20px, and center aligned. */
+
+.container
+.text {
+    color: brown;
+    font-weight: 300;
+    background-color: #f5f5dc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+}
