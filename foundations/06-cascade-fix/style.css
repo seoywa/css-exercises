@@ -1,15 +1,15 @@
+/* make small-para font smaller
+make confirm button green 
+make text child extra bold 
+adding, removing, or editing selectors for a declaration block, or by moving declaration blocks around*/
+
 body{
   font-family:Arial, Helvetica, sans-serif
 }
 
 .para,
 .small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
-}
-
-.small-para {
-  font-size: 14px;
+  color: #000000;
   font-weight: 800;
 }
 
@@ -17,7 +17,7 @@ body{
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,14 +29,19 @@ body{
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+div .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }
